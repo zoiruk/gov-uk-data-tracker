@@ -1,0 +1,76 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f8fa;
+  color: #222;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 30px auto 30px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px 32px 24px;
+}
+h1 {
+  margin-bottom: 8px;
+}
+p.note {
+  color: #637282;
+  font-size: 0.9em;
+  margin-top: 2.5em;
+}
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 16px;
+  margin-bottom: 24px;
+  align-items: flex-end;
+}
+#controls label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1em;
+}
+#compareBtn {
+  background: #1698F8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#compareBtn:hover {
+  background: #145cb4;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+  font-size: 0.97em;
+}
+table th, table td {
+  border: 1px solid #e7e7e7;
+  padding: 6px 9px;
+  text-align: left;
+}
+table th {
+  background: #f2f5f9;
+  font-weight: 600;
+}
+canvas#statsChart {
+  margin: 18px 0 0 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0.5px 2.5px rgba(0,0,0,0.05);
+}
+a {
+  color: #1698F8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
